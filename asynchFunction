@@ -1,0 +1,13 @@
+value of x changes after setTimeout is triggered
+
+
+
+var x = 1;
+console.log(x + " is an original var");
+
+setTimeout(function() {
+x = 99;
+console.log(" new var is " + x);
+}, 3000);
+
+console.log(" This is outside  " + x);
