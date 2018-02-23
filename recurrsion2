@@ -1,0 +1,11 @@
+
+function sumIter() {
+
+var sum = 0
+for (var i=0; i<arguments.length; i++){
+sum = sum + arguments [i];
+}
+return sum;
+}
+console.log(sumIter(8,8,3));
+
