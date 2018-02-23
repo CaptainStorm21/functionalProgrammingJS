@@ -1,0 +1,11 @@
+//executes right away
+console.log("good morning!");
+
+setTimeout ( function () {
+console.log(Date());
+
+
+}, 3000);
+
+//executes right away --2nd 
+console.log("after timeout");
