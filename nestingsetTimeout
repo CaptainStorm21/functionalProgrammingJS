@@ -1,0 +1,8 @@
+setTimeout (function(){
+    x = 99;
+    console.log("value of x is " + x) 
+setTimeout(function() {
+x = "woofie"
+console.log("x has been changed to " + x)
+}, 3000)
+}, 3000)
