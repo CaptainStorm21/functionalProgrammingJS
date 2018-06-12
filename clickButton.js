@@ -9,7 +9,7 @@ function capWords(input) {
 var counter;
 var inputArray = input.split(" ");
 var transformed = "";
-resut = [];
+result = [];
 for (counter = 0; counter < inputArray.length; counter++){
 	transformed = [
 inputArray[counter].charAt(0).toUpperCase(),
