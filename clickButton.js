@@ -2,7 +2,7 @@ var result;
 function getText(){
    var someText = prompt ("cap me");
    capWords(someText);
-alert(result.join(""));
+alert(result.join(" "));
 }
 
 function capWords(input) {
